@@ -1,0 +1,35 @@
+# GTA 5 Player Analytics Platform - Dependencies
+# Python 3.9+
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Machine Learning
+scikit-learn==1.4.0
+
+# Database (for production)
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+
+# HTTP & API
+httpx==0.26.0
+python-multipart==0.0.6
+
+# Development & Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+
+# Logging & Monitoring
+python-json-logger==2.0.7
+
+# Optional: Production deployment
+gunicorn==21.2.0
